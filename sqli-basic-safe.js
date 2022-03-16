@@ -2,6 +2,8 @@ var mysql = require('mysql');
 var express = require('express');
 var router = express.Router();
 
+
+
 router.post('/login/auth', function (req, res) {
   var u = req.body.username;
 
